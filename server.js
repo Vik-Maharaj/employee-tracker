@@ -5,7 +5,6 @@ const apiRoutes = require('./routes/apiRoutes');
 const inquirer = require('inquirer');
 const mysql = require('mysql2');
 const cTable = require('console.table');
-// const res = require('express/lib/response');
 
 const PORT = process.env.PORT || 3001;
 
@@ -266,7 +265,6 @@ updateEmployeeRole = () => {
     });
 };
 
-// Questions prompt //
 function userQuestions() {
 
 inquirer.prompt({
