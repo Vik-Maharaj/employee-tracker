@@ -55,6 +55,16 @@ function viewDepartments() {
 };
 
 
+function employeeDepartment() {
+    var query = 'SELECT * FROM department';
+    db.query(query, function(err, res) {
+        if (err) throw err;
+        console.table('DEPARTMENTS', res);
+        userQuestions();
+    })
+};
+
+
 addEmployee = () => {
     inquirer.prompt([
       {
@@ -275,10 +285,11 @@ inquirer.prompt({
             "View all employees",
             "View all roles",
             "View all departments",
+            "View employees by department",
             "Update employee role",
-            "Add employee",
+            "Add department",
             "Add role",
-            "Add department"
+            "Add employee"
         ]
     }).then((answer) => {
     switch (answer.choice) {
