@@ -2,14 +2,14 @@
 
 ## Description
 
-Business owners often need to manage the inner workings of their companies, specifically the departments, roles and companies within those businesses. As a result, keeping track of information stored in database is a critical component of running daily operations, and one of the easiest ways a business owner can interact with their stored information is through a content management system (CMS).
+Business owners often need to manage the inner workings of their companies, specifically the departments, roles and employees within those businesses. As a result, keeping track of information stored in databases is a critical component of running daily operations, and one of the easiest ways a business owner can interact with their stored information is through a content management system (CMS).
 
-Enter the purpose of this project: utilize Node.js, Express.js, Inquirer, and MySQL to create a command-line application to manage a company's database. The application is easily installed and initialized and includes the following features:
+Enter the purpose of this project: utilize Node.js, Express.js, Inquirer, and MySQL to create a command-line application to manage a company's database. The application is easily installed and initialized, and includes the following features:
 
 - Once the application starts the user is presented with the options to view all employees, view all roles, view all departments, or view employees by department.
 - The user is also presented with options to update a current employee's role, add a new department, add a new role, or add a new employee.
 - If the user chooses to view current employees, roles, or departments, they are presented with a formatted table showing the results.
-- If the user chooses to view a current role or current employee, they are presented with that data along with the corresponding salary for that result.
+- If the user chooses to view a current role or current employee, they are presented with the data along with the corresponding salary for that result.
 - If the user chooses to add a new department, role, or employee, they are able to enter the information into the CLI and the database will be updated accordingly.
 
 
@@ -28,7 +28,7 @@ To use this application, you first need to have MySQL installed, and then initia
 
 ![Vik's Team Profile Generator Testing Example Video](src/employee-tracker-initialize-server-example.gif)
 
-You will then be informed that the program has started, and will be given prompts and can select from the various options information you would like to request or modify. 
+You will then be informed that the program has started, and will be given prompts, and can select from various options the information you would like to request or modify. 
 
 Here is an example of the application from the CLI:
 
